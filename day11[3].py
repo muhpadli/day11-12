@@ -1,0 +1,6 @@
+jumlah_siswa = int(input("masukkan jumlah siswa :"))
+siswa_gemar_fisika =int(input("masukkan jumlah siswa gemar fisika :"))
+siswa_gemar_kimia = int(input("masukkan jumlah siswa gemar kimia :"))
+siswa_gemar_keduanya = int(input("masukkan jumlah siswa  gemar keduanya: "))
+siswa_tidakgemar_keduanya = jumlah_siswa - ((siswa_gemar_fisika - siswa_gemar_keduanya)+ ((siswa_gemar_fisika - siswa_gemar_keduanya)))
+print("siswa tidak gemar keduanya adalah %d orang" %siswa_tidakgemar_keduanya)
